@@ -114,3 +114,10 @@
     flex-direction: column;
   }
 }
+
+.subtitle {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 2rem;
+  color: #0070f3;
+}
