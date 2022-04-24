@@ -20,7 +20,7 @@ const Gallery = () => {
 		try {
 			const res = await axios.get("https://api.unsplash.com/photos/random", {
 				params: {
-					client_id: process.env.REACT_APP_UNSPLASH_ACCESS_KEY,
+					client_id: process.env.NEXT_PUBLIC_UNSPLASH_ACCESS_KEY,
 					count: 12,
 				},
 			});
@@ -36,7 +36,7 @@ const Gallery = () => {
 		try {
 			const res = await axios.get("https://api.unsplash.com/search/photos", {
 				params: {
-					client_id: process.env.REACT_APP_UNSPLASH_ACCESS_KEY,
+					client_id: process.env.NEXT_PUBLIC_UNSPLASH_ACCESS_KEY,
 					query: selectedCategory.toLowerCase(),
 				},
 			});
