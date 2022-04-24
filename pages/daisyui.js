@@ -1,6 +1,6 @@
 
 export default function DaisyUI() {
     return (
-        <button class="btn btn-primary">Button</button>
+        <button className="btn btn-primary">Button</button>
     )
   }
