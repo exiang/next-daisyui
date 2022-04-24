@@ -3,6 +3,9 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+
+	const CLIENT_ID = process.env.REACT_APP_UNSPLASH_ACCESS_KEY
+
   return (
     <div className={styles.container}>
       <Head>
@@ -19,6 +22,7 @@ export default function Home() {
         <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
+          <p>={CLIENT_ID}=</p>
         </p>
 
         <div className={styles.grid}>
