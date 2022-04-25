@@ -26,6 +26,7 @@ export default function Home() {
             <li><Link href="/blog"><a>Blog (Nested Page Route)</a></Link></li>
             <li><Link href="/category"><a>Category (Dynamic Page Route)</a></Link></li>
             <li><Link href="/product"><a>Product (Nexted Dynamic Page Route)</a></Link></li>
+            <li><Link href="/docx"><a>Docx (Freeform Dynamic Page Route)</a></Link></li>
             <li><Link href="/gallery"><a>Gallery (Axios, env &amp; API)</a></Link></li>
             
           </ol>
