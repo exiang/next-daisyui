@@ -17,14 +17,19 @@ export default function Home() {
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
-        <p className={styles.description}>
+        <div className={styles.description}>
           <h2 className={styles.subtitle}>Demo</h2>
           <ol>
             <li><Link href="/tailwindcss"><a>Tailwind CSS</a></Link></li>
             <li><Link href="/daisyui"><a>DaisyUI</a></Link></li>
-            <li><Link href="/gallery"><a>Gallery</a></Link></li>
+            <li><Link href="/about"><a>About</a></Link></li>
+            <li><Link href="/blog"><a>Blog (Nested Page Route)</a></Link></li>
+            <li><Link href="/category"><a>Category (Dynamic Page Route)</a></Link></li>
+            <li><Link href="/product"><a>Product (Nexted Dynamic Page Route)</a></Link></li>
+            <li><Link href="/gallery"><a>Gallery (Axios, env &amp; API)</a></Link></li>
+            
           </ol>
-        </p>
+        </div>
       
 
         <div className={styles.grid}>

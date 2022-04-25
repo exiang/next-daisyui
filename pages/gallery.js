@@ -3,7 +3,6 @@ import axios from "axios";
 import Intro from "../components/Intro/Intro";
 import Navbar from "../components/Navbar/Navbar";
 import Photo from "../components/Photo/Photo";
-import styles from '../styles/Home.module.css'
 
 const Gallery = () => {
 	const [selectedCategory, setSelectedCategory] = useState("RANDOM");
@@ -59,7 +58,7 @@ const Gallery = () => {
 	}, [selectedCategory]);
 
 	return (
-		<div className={styles.container}>
+		<div>
 			<main>
 				<Navbar className="mb-10" />
 				<Intro />
