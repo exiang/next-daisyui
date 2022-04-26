@@ -54,7 +54,6 @@ export async function getStaticPaths(){
     return {paths, fallback:false}
 }*/
 
-/*
 // example 3: 
 // if fallback is true but page not found, next will generate one live on request
 // this also the recommended one over option `blocking`
@@ -69,8 +68,9 @@ export async function getStaticPaths(){
         fallback: true
        
     }
-}*/
+}
 
+/*
 // this wont show the loading message
 // works for crawler that not supporting javascript
 export async function getStaticPaths(){
@@ -83,7 +83,7 @@ export async function getStaticPaths(){
         fallback: 'blocking'
        
     }
-}
+}*/
 
 export async function getStaticProps(context)
 {
