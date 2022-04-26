@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar/Navbar";
 import Photo from "../components/Photo/Photo";
 
 const Gallery = () => {
+	const [isLoading, setIsLoading] = useState(true);
 	const [selectedCategory, setSelectedCategory] = useState("RANDOM");
 	const [photos, setPhotos] = useState([]);
 	const [categories] = useState([
@@ -55,7 +56,14 @@ const Gallery = () => {
 			fetchPhotoBasedOnCategory();
 		}
 		fetchData();
+
+		setIsLoading(false);
 	}, [selectedCategory]);
+
+	if(isLoading)
+	{
+		return <h2>Loading...</h2>
+	}
 
 	return (
 		<div>
