@@ -33,7 +33,7 @@ export default function Home() {
             <li><Link href="/ssg"><a>SSG (Static Site Generation)</a></Link></li>
             <li><Link href="/post"><a>SSG with Fallback</a></Link></li>
             <li><Link href="/isr"><a>ISR (Incremental Static Regeneration)</a></Link></li>
-            <li><a>SSR (Server Side Rendering)</a></li>
+            <li><Link href="/ssr"><a>SSR (Server Side Rendering)</a></Link></li>
             <li><Link href="/gallery"><a>Gallery (Axios, env &amp; API)</a></Link></li>
           </ol>
         </div>
