@@ -25,10 +25,13 @@ export default function Home() {
             <li><Link href="/about"><a>About</a></Link></li>
             <li><Link href="/getQuery"><a>GET Query (URL Prop)</a></Link></li>
             <li><Link href="/onclick"><a>Navigate programatically with router</a></Link></li>
+            <li><Link href="/404NotExists"><a>404 Customized</a></Link></li>
             <li><Link href="/blog"><a>Blog (Nested Page Route)</a></Link></li>
             <li><Link href="/category"><a>Category (Dynamic Page Route)</a></Link></li>
             <li><Link href="/product"><a>Product (Nexted Dynamic Page Route)</a></Link></li>
             <li><Link href="/docx"><a>Docx (Freeform Dynamic Page Route)</a></Link></li>
+            <li><Link href="/ssg"><a>SSG (Static Site Generation)</a></Link></li>
+            <li><a>SSR (Server Side Rendering)</a></li>
             <li><Link href="/gallery"><a>Gallery (Axios, env &amp; API)</a></Link></li>
           </ol>
         </div>

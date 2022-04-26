@@ -11,7 +11,7 @@ function Docx()
     {
         return (
             <>
-                <h1>View Chapter '{params[0]}' \ Page '{params[1]}'</h1>
+                <h1>View Chapter {params[0]} \ Page {params[1]}</h1>
             </>
         );
     }
@@ -19,7 +19,7 @@ function Docx()
     {
         return (
             <>
-                <h1>View Chapter '{params[0]}'</h1>
+                <h1>View Chapter {params[0]}</h1>
             </>
         );
     }
