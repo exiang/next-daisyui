@@ -1,4 +1,5 @@
 import {Image} from 'next/image'
+import {Link} from 'next/link'
 import { useState } from "react";
 
 // upload example: https://codesandbox.io/s/thyb0?file=/pages/index.js:708-712
@@ -62,7 +63,11 @@ export default function UploadImage(props) {
           Send to server
         </button>
 
-        <p><a href="{imageUrl}">{imageUrl}</a></p>
+        <p>
+          
+            <a href={imageUrl} target="_blank" rel="noopener noreferrer">{imageUrl}</a>
+          
+        </p>
       </div>
     </div>
   );
