@@ -36,6 +36,7 @@ export default function Home() {
             <li><Link href="/ssr"><a>SSR (Server Side Rendering)</a></Link></li>
             <li><Link href="/gallery"><a>Gallery (Client Side Rendering, Axios, env &amp; API)</a></Link></li>
             <li><Link href="/uploadImage"><a>Upload Image</a></Link></li>
+            <li>UI: <Link href="/ui/layout1"><a>Layout1</a></Link></li>
             Hello BS
           </ol>
         </div>
